@@ -67,5 +67,5 @@ The low_risk sensitivity is now 94% with 100% presicion.
 
 All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high.
 The Ensemble models brought more improvment on the sensitivity of the high risk credits.
-The EasyEnsembleClassifier model shows a recall of 93% so it detects almost all high risk credit. However, with low precision it indicates that a lot of low risk credits are still falsely detected as high which would penalize the bank's credit strategy because the model says that it is missing out on revenue by not including those business opportunities.
+The EasyEnsembleClassifier model shows a recall of 93% so it detects almost all high risk credit. However, with low precision it indicates that a lot of low risk credits are still falsely detected as high which would penalize the bank's credit strategy. The model says that it is missing out on revenue by not including those business opportunities (low risk being falsely detected as high risk).
 For those reasons I would not recommend the bank to use any of these models to predict credit risk.
