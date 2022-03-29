@@ -15,7 +15,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 The results above indicate the balanced accuracy score is 65%.
 The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.
-Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%. 
+The low_risk precision is almost 100% with a sensitivity of 68%. 
 
 ### SMOTE Model
 ![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/smotemodel.png?raw=true)
@@ -24,20 +24,41 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 
 The results above indicate a balanced accuracy score is 64%.
 The high_risk precision is about 1% only with 63% sensitivity which makes a F1 of 2% only.
-Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%. 
+The low_risk precision is almost 100% with a sensitivity of 66%. 
 
-![This is an image]()
-![This is an image]()
-![This is an image]()
+### ClusterCentroids model
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroidsmodel.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroidsmodel2.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroidsmodel3.png?raw=true)
 
-![This is an image]()
-![This is an image]()
-![This is an image]()
+Here the balanced accuracy score is down to about 53%.
+The high_risk precision is still 1% only with 61% sensitivity which makes a F1 of 1%.
+The low_risk precision is almost 100% with a sensitivity of 45%. 
 
-![This is an image]()
-![This is an image]()
-![This is an image]()
+### SMOTEEN Model
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/smoteenmodel.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/smoteenmodel2.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/smoteenmodel3.png?raw=true)
 
-![This is an image]()
-![This is an image]()
-![This is an image]()
+The balanced accuracy score is about 62%.
+The high_risk precision is still 1% only with 68% sensitivity which makes a F1 of only 2%.
+The low_risk precision is almost 100% with a sensitivity of 57%. 
+
+### BalancedRandomForestClassifier model
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/balancedradnomforestclass.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/balancedrandomforestclass2.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/balancesrandomforestclass3.png?raw=true)
+
+The balanced accuracy score improved to about 79%.
+The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
+The low_risk sensitivity is 91% with 100% presicion. 
+
+### EasyEnsembleClassifier model
+
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/easyensambleclassifier.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/easyensambleclassifier2.png?raw=true)
+![This is an image](https://github.com/AleksKostrycka/Credit_Risk_Analysis/blob/main/Resources/easyensambleclassifier3.png?raw=true)
+
+The balanced accuracy score is about 93%.
+The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
+The low_risk sensitivity is now 94% with 100% presicion. 
